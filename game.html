@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>number pick up game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Guess The Number</h1>
+      <h3>Between 1 to 50</h3>
+      <button class="btn again">Play Again</button>
+      <div class="number">?</div>
+    </header>
+    <main class="container">
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn check">check</button>
+      </section>
+      <section class="right">
+        <p class="message">Start Guessing..</p>
+        <p>🥇Score <span class="score">20</span></p>
+        <p>🏆highscore <span class="highscore">0</span></p>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>
